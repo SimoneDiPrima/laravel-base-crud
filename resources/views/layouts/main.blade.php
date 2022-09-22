@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <h4 class="text-warning text-center">COMICS LIST</h4>
-        <div class="col-3 card mt-5">
+        <div class="card mt-5">
             @yield('main-content')
         </div>
     </div>
