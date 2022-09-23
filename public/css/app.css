@@ -10859,6 +10859,10 @@ textarea.form-control-lg {
   min-height: 500px;
   background-color: lightgray;
 }
+.homepage a {
+  text-decoration: none;
+  color: dodgerblue;
+}
 
 .w-80 {
   width: 80%;

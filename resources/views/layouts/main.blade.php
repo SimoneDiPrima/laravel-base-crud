@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-dark">
     <div class="container">
         <h4 class="text-warning text-center">COMICS LIST</h4>
-        <div class="offset-1 col-10 mt-5 ">
+        <div class="mt-5">
             @yield('main-content')
         </div>
     </div>
