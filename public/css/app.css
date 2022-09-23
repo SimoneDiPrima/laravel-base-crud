@@ -10855,3 +10855,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.homepage {
+  height: 500px;
+  background-color: lightgray;
+}
