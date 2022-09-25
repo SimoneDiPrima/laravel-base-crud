@@ -9,7 +9,8 @@
 </head>
 <body class="bg-dark">
     <div class="container">
-        <h4 class="text-warning text-center">COMICS LIST</h4>
+        <h4 class="text-warning text-center">COMIC'S WORLD</h4>
+        <h6 class="text-warning text-center mt-3">il tuo fumetto dove e quando vuoi</h6>
         <div class="mt-5">
             @yield('main-content')
         </div>
