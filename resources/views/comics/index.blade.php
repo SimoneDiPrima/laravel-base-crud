@@ -7,6 +7,8 @@
        <figure>
             <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}"/>
             <h6 class="w-80">{{$comic['title']}}</h6>
+            <a href="{{ route('Comics.show',$comic->id) }}" class="btn btn-danger">vedi nel dettaglio</a>
+            <a href="{{ route('Comics.edit',$comic->id) }}" class="btn btn-danger">modifica</a>
        </figure>
        
 </a>

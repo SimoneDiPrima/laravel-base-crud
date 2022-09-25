@@ -1,5 +1,6 @@
 @extends('layouts.main');
 @section('main-content')
+
 <h2 class="mb-4 text-white">{{ $comic->title }}</h2>
 <h5 class="mb-4 text-white">{{ $comic->description }}</h2>
 <img class="mb-4 text-white" src="{{ $comic->thumb }}" alt="poster" />
